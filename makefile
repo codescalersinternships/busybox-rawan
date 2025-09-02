@@ -88,4 +88,3 @@ run:
 	qemu-system-x86_64 -kernel $(BOOTDIR)/bzImage -initrd $(CPIO) -append "console=ttyS0" -nographic
 
 # In short: BIOS --> Syslinux --> Kernel --> Initramfs --> Init --> Shell
-https://github.com/codescalersinternships/home/issues/317
